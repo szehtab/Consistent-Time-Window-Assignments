@@ -36,110 +36,109 @@ Travel_Time_Matrix (Suppliers, Distribution_Centers, Customers)
 2147483647	2147483647	2147483647	2147483647	2147483647	118	96	94	67	95	66	97	65	64	66	101	100	63	103	104	58	106	58	107	55	128	40	38	131	38	131	0	
 
 
-Supplier_ID	X_Coordinate	Y_Coordinate	Closest_DC	Second_Closest_DC	Supply_Commodity1_Quantity	Supply_Commodity2_Quantity	Supply_Commodity3_Quantity	
-1	68	90	7	6	255	219	58	
-2	37	43	7	6	255	219	58	
-3	72	72	7	6	255	219	58	
-4	70	80	7	6	255	219	58	
-5	42	32	6	7	255	219	58	
+Supplier_ID	Closest_DC	Second_Closest_DC	Supply_Commodity1_Quantity	Supply_Commodity2_Quantity	Supply_Commodity3_Quantity
+1	7	6	255	219	58
+2	7	6	255	219	58
+3	7	6	255	219	58
+4	7	6	255	219	58
+5	6	7	255	219	58	
 
 
 Scenario: 1; Probability: 0.33
 
-Distribution_Center_ID	X_Coordinate	Y_Coordinate	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-6	25	37	0	0	0	
-7	40	50	654	571	150	
+Distribution_Center_ID	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+6	0	0	0
+7	654	571	150	
 
-Customer_ID	X_Coordinate	Y_Coordinate	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-8	45	68	7	6	31	59	13	
-9	65	62	7	6	32	47	14	
-10	45	70	7	6	54	42	0	
-11	65	60	7	6	39	31	0	
-12	42	66	7	6	26	26	10	
-13	68	64	7	6	39	21	9	
-14	68	62	7	6	33	6	25	
-15	68	65	7	6	15	9	13	
-16	40	69	7	6	26	29	18	
-17	40	66	7	6	16	26	0	
-18	70	64	7	6	24	22	0	
-19	38	68	7	6	20	42	0	
-20	38	70	7	6	9	23	1	
-21	72	60	7	6	12	27	1	
-22	35	66	7	6	37	27	0	
-23	75	64	7	6	35	22	0	
-24	35	69	7	6	25	18	0	
-25	75	61	7	6	38	18	0	
-26	25	85	7	6	10	6	8	
-27	85	45	7	6	12	8	7	
-28	88	55	7	6	18	32	16	
-29	22	85	7	6	33	15	7	
-30	88	45	7	6	17	11	8	
-31	20	80	7	6	29	2	0	
-32	90	50	7	6	24	2	0	
+Customer_ID	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+8	7	6	31	59	13
+9	7	6	32	47	14
+10	7	6	54	42	0
+11	7	6	39	31	0
+12	7	6	26	26	10
+13	7	6	39	21	9
+14	7	6	33	6	25
+15	7	6	15	9	13
+16	7	6	26	29	18
+17	7	6	16	26	0
+18	7	6	24	22	0
+19	7	6	20	42	0
+20	7	6	9	23	1
+21	7	6	12	27	1
+22	7	6	37	27	0
+23	7	6	35	22	0
+24	7	6	25	18	0
+25	7	6	38	18	0
+26	7	6	10	6	8
+27	7	6	12	8	7
+28	7	6	18	32	16
+29	7	6	33	15	7
+30	7	6	17	11	8
+31	7	6	29	2	0
+32	7	6	24	2	0	
 
 Scenario: 2; Probability: 0.33
 
-Distribution_Center_ID	X_Coordinate	Y_Coordinate	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-6	25	37	0	0	0	
-7	40	50	904	783	206	
+Distribution_Center_ID	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+6	0	0	0
+7	904	783	206	
 
-Customer_ID	X_Coordinate	Y_Coordinate	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-8	45	68	7	6	50	91	16	
-9	65	62	7	6	48	64	21	
-10	45	70	7	6	59	58	0	
-11	65	60	7	6	58	42	0	
-12	42	66	7	6	40	36	13	
-13	68	64	7	6	49	33	12	
-14	68	62	7	6	46	8	36	
-15	68	65	7	6	20	11	17	
-16	40	69	7	6	40	33	24	
-17	40	66	7	6	25	29	0	
-18	70	64	7	6	37	29	0	
-19	38	68	7	6	29	62	0	
-20	38	70	7	6	11	32	1	
-21	72	60	7	6	13	37	2	
-22	35	66	7	6	52	33	0	
-23	75	64	7	6	49	36	0	
-24	35	69	7	6	37	24	0	
-25	75	61	7	6	53	31	0	
-26	25	85	7	6	13	7	10	
-27	85	45	7	6	13	11	9	
-28	88	55	7	6	27	38	25	
-29	22	85	7	6	40	19	9	
-30	88	45	7	6	27	15	11	
-31	20	80	7	6	34	2	0	
-32	90	50	7	6	34	2	0	
+Customer_ID	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+8	7	6	50	91	16
+9	7	6	48	64	21
+10	7	6	59	58	0
+11	7	6	58	42	0
+12	7	6	40	36	13
+13	7	6	49	33	12
+14	7	6	46	8	36
+15	7	6	20	11	17
+16	7	6	40	33	24
+17	7	6	25	29	0
+18	7	6	37	29	0
+19	7	6	29	62	0
+20	7	6	11	32	1
+21	7	6	13	37	2
+22	7	6	52	33	0
+23	7	6	49	36	0
+24	7	6	37	24	0
+25	7	6	53	31	0
+26	7	6	13	7	10
+27	7	6	13	11	9
+28	7	6	27	38	25
+29	7	6	40	19	9
+30	7	6	27	15	11
+31	7	6	34	2	0
+32	7	6	34	2	0	
 
 Scenario: 3; Probability: 0.34
 
-Distribution_Center_ID	X_Coordinate	Y_Coordinate	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-6	25	37	0	0	0	
-7	40	50	1159	991	263	
+Distribution_Center_ID	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+6	0	0	0
+7	1159	991	263	
 
-Customer_ID	X_Coordinate	Y_Coordinate	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity	
-8	45	68	7	6	59	107	21	
-9	65	62	7	6	59	72	25	
-10	45	70	7	6	80	80	0	
-11	65	60	7	6	71	58	0	
-12	42	66	7	6	49	40	17	
-13	68	64	7	6	65	38	16	
-14	68	62	7	6	60	9	49	
-15	68	65	7	6	29	13	21	
-16	40	69	7	6	53	46	33	
-17	40	66	7	6	30	42	0	
-18	70	64	7	6	42	37	0	
-19	38	68	7	6	37	83	0	
-20	38	70	7	6	16	44	2	
-21	72	60	7	6	16	49	2	
-22	35	66	7	6	61	40	0	
-23	75	64	7	6	64	43	0	
-24	35	69	7	6	49	31	0	
-25	75	61	7	6	71	37	0	
-26	25	85	7	6	17	9	13	
-27	85	45	7	6	18	12	11	
-28	88	55	7	6	36	52	30	
-29	22	85	7	6	50	25	10	
-30	88	45	7	6	33	18	13	
-31	20	80	7	6	46	3	0	
-32	90	50	7	6	48	3	0	
-
+Customer_ID	Closest_DC	Second_Closest_DC	Demand_Commodity1_Quantity	Demand_Commodity2_Quantity	Demand_Commodity3_Quantity
+8	7	6	59	107	21
+9	7	6	59	72	25
+10	7	6	80	80	0
+11	7	6	71	58	0
+12	7	6	49	40	17
+13	7	6	65	38	16
+14	7	6	60	9	49
+15	7	6	29	13	21
+16	7	6	53	46	33
+17	7	6	30	42	0
+18	7	6	42	37	0
+19	7	6	37	83	0
+20	7	6	16	44	2
+21	7	6	16	49	2
+22	7	6	61	40	0
+23	7	6	64	43	0
+24	7	6	49	31	0
+25	7	6	71	37	0
+26	7	6	17	9	13
+27	7	6	18	12	11
+28	7	6	36	52	30
+29	7	6	50	25	10
+30	7	6	33	18	13
+31	7	6	46	3	0
+32	7	6	48	3	0
